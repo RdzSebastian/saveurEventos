@@ -44,11 +44,12 @@
 						<a href="#menu_area">menu</a>
 						<a href="about.html">about</a>
 					</div>
-					<div class="col-3 logo">
+					<div class="col-3 logo ">
 						<a href="index.html"><img class="mx-auto" src="img/logo.png" alt=""></a>
 					</div>
-					<nav class="col navbar navbar-expand-md justify-content-end">
 
+					<nav class="col navbar navbar-expand-md justify-content-end">
+						
 						<!-- Toggler/collapsibe Button -->
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 							<span class="lnr lnr-menu"></span>
@@ -58,7 +59,7 @@
 						<div class="collapse navbar-collapse menu-right" id="collapsibleNavbar">
 							<ul class="navbar-nav justify-content-center w-100">
 								<li class="nav-item hide-lg">
-									<a class="nav-link" href="index.html">Home</a>
+									<a class="nav-link" href="index.html">home</a>
 								</li>
 								<li class="nav-item hide-lg">
 									<a class="nav-link" href="#menu_area">menu</a>
@@ -66,27 +67,14 @@
 								<li class="nav-item hide-lg">
 									<a class="nav-link" href="about.html">about</a>
 								</li>
-								<!-- Dropdown -->
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-										Pages
-									</a>
-									<div class="dropdown-menu">
-										<a class="dropdown-item" href="contact.html">Contact</a>
-										<a class="dropdown-item" href="elements.html">Elements</a>
-									</div>
-								</li>
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-										Blog
-									</a>
-									<div class="dropdown-menu">
-										<a class="dropdown-item" href="blog-home.html">Blog</a>
-										<a class="dropdown-item" href="blog-single.html">Blog Detail</a>
-									</div>
+								<li class="nav-item">
+									<a class="nav-link" href="#contact">contact</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#Gallery">Gallery</a>
+									<a class="nav-link" href="#contact">notIdea</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#gallery">gallery</a>
 								</li>
 							</ul>
 						</div>
@@ -264,10 +252,6 @@
 				<div class="col-lg-7 col-md-6">
 					<form class="booking-form" id="myForm" action="">
 						<div class="row">
-							<div class="col-lg-12 d-flex flex-column mb-20">
-								<input name="event-name" placeholder="Event Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Event Name'"
-								 class="form-control" required="" type="text">
-							</div>
 
 							<div class="input-group col-lg-6 mb-20">
 								<input id="event_date" class="form-control datepicker" placeholder="Event Date" onfocus="this.placeholder = ''"
@@ -281,32 +265,24 @@
 
 							<div class="col-lg-6 d-flex flex-column mb-20">
 								<div class="nice-select app-select form-control " tabindex="0">
-									<span class="current">Event Time</span>
+									<span class="current">Horario del evento</span>
 									<ul class="list">
-										<li data-value="Project you want to donate" data-display="Project you want to donate" class="option selected">Meal
-											Preferences</li>
-										<li data-value="1" class="option">05pm</li>
-										<li data-value="2" class="option">08pm</li>
-										<li data-value="3" class="option">09pm</li>
+										<li data-value="1" class="option">Mediodia</li>
+										<li data-value="2" class="option">Tarde</li>
+										<li data-value="3" class="option">Noche</li>
 									</ul>
 								</div>
 							</div>
 
-							<div class="col-lg-6 d-flex flex-column mb-20">
+							<div class="col-lg-12 d-flex flex-column mb-20">
 								<div class="nice-select app-select form-control " tabindex="0">
-									<span class="current">Number of guests</span>
+									<span class="current">Cantidad de invitados</span>
 									<ul class="list">
-										<li data-value="Project you want to donate" data-display="Project you want to donate" class="option selected">Number
-											of guests</li>
-										<li data-value="1" class="option">Number of guests 1</li>
-										<li data-value="2" class="option">Number of guests 2</li>
-										<li data-value="3" class="option">Number of guests 3</li>
+										<li data-value="1" class="option">Menos de 50</li>
+										<li data-value="2" class="option">Menos de 100</li>
+										<li data-value="3" class="option">Mas de 100</li>
 									</ul>
 								</div>
-							</div>
-							<div class="col-lg-6 d-flex flex-column mb-20">
-								<input name="budget" placeholder="Budget" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Budget'"
-								 class="form-control" required="" type="text">
 							</div>
 							<div class="col-lg-12 d-flex flex-column mb-20">
 								<input name="contact-name" placeholder="Contact Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Contact Name'"
@@ -335,11 +311,10 @@
 				<div class="offset-lg-1 col-lg-4 col-md-6">
 					<div class="section-title relative">
 						<h1>
-							Book a <br>
-							Table or <br>
-							Rooms for <br>
-							private <br>
-							dining
+							Envianos <br>
+							Tu Evento <br>
+							Y te <br>
+							llamamos
 						</h1>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -418,7 +393,7 @@
 	<!--================ End Call To Action Area =================-->
 
 	<!--================ Contact Area =================-->
-	<section class="contact-area section-gap">
+	<section class="contact-area section-gap" id="contact">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-6 col-md-6">
