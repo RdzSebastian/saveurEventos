@@ -702,8 +702,7 @@ th {
       .section-title p {
         margin-bottom: 30px; } }
 
-.fixed-view-menu,
-.fixed-book-table {
+.fixed-view-menu, .fixed-book-table {
   position: fixed;
   top: 52.5%;
   min-height: 180px;
@@ -712,25 +711,36 @@ th {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  width: 92px; }
-  .fixed-view-menu p,
-  .fixed-book-table p {
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s; }
-    .fixed-view-menu p a,
-    .fixed-book-table p a {
-      text-transform: uppercase;
-      font-size: 13px;
-      -webkit-transition: all 0.4s ease 0s;
-      -moz-transition: all 0.4s ease 0s;
-      -o-transition: all 0.4s ease 0s;
-      transition: all 0.4s ease 0s; }
-  @media (max-width: 1114px) {
-    .fixed-view-menu,
-    .fixed-book-table {
-      display: none; } }
+  width: 92px; 
+}
+
+.fixed-book-table img{
+  width: 130px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.fixed-view-menu p, .fixed-book-table p {
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; 
+}
+
+.fixed-view-menu p a, .fixed-book-table p a {
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; 
+}
+
+@media (max-width: 1114px) {
+  .fixed-view-menu, .fixed-book-table {
+    display: none; 
+  } 
+}
 
 .fixed-view-menu {
   background: url(../img/view-menu-bg.png) no-repeat center;
@@ -1997,22 +2007,37 @@ h1, h2, h3, h4, h5, h6 {
 ============================================================================================ */
 /* Start About Area css
 ============================================================================================ */
+
+.section-title {
+    padding-top: 120px;
+}
+
 @media (max-width: 991px) {
   .about-area .section-title {
-    padding-top: 60px; } }
+    padding-top: 60px; 
+    } 
+  }
 
 /* End About Area css
 ============================================================================================ */
 /* Menu List Area css
 ============================================================================================ */
 .menu-area .section-title {
-  padding-right: 55px; }
-  @media (max-width: 991px) {
-    .menu-area .section-title {
-      padding-right: 0; } }
-  @media (max-width: 767px) {
-    .menu-area .section-title {
-      margin-top: 60px; } }
+  padding-right: 55px; 
+}
+  
+@media (max-width: 991px) {
+  .menu-area .section-title {
+    padding-right: 0; 
+  } 
+}
+
+@media (max-width: 767px) {
+  .menu-area .section-title {
+    padding-top: 0px;
+    margin-top: 60px; 
+  } 
+}
 
 .menu-list {
   padding: 120px 0px;
