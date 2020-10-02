@@ -2330,7 +2330,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 136px;
     resize: none; }
 
-#contactMap {
+.contactMap {
   height: 650px;
   width: 100%; }
   @media (max-width: 767px) {
