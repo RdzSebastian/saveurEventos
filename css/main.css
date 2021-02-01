@@ -1933,7 +1933,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Start Home Banner Area 
 ============================================================================================ */
 .home-banner-area {
-  background: url(../img/header-bg-min.png) no-repeat center; }
+  background: url(../img/header-bg-min.jpg) no-repeat center; }
   .home-banner-area .height {
     height: 750px; }
   @media (max-width: 991px) {
@@ -1942,7 +1942,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .home-banner-content {
   text-align: center;
-  color: #fff; }
+  color: #fff; 
+}
   .home-banner-content h1 {
     color: #fff;
     font-size: 72px;
@@ -1963,6 +1964,43 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     text-transform: uppercase;
     padding-top: 8px; }
+
+    /* line 57, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_button.scss */
+.btn_2 {
+  display: inline-block;
+  width: 180px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ad9966;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  text-transform: capitalize;
+  background-size: 200% auto;
+  text-transform: uppercase;
+  box-shadow: -1.717px 8.835px 29.76px 2.24px rgba(255, 51, 104, 0.18);
+}
+
+/* line 77, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_button.scss */
+.btn_2:hover {
+  color: #fff !important;
+  background-position: right center;
+}
+
+@media (max-width: 991px) {
+  /* line 57, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_button.scss */
+  .btn_2 {
+    height: 50px;
+    width: 140px;
+    line-height: 50px;
+  }
+}
 
 /* End Home Banner Area 
 ============================================================================================ */
@@ -2271,7 +2309,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0; }
   .callto-action-area .text-box {
     width: 45%;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.4);
     padding: 33px 20px;
     position: absolute;
     top: 50%;
