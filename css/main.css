@@ -1794,16 +1794,16 @@ h1, h2, h3, h4, h5, h6 {
     width: 27%; }
     @media (max-width: 767px) {
       .logo img {
-        width: 16%; } }
+        width: 35%; } }
     @media (max-width: 576px) {
       .logo img {
-        width: 24%; } }
+        width: 50%; } }
     @media (max-width: 480px) {
       .logo img {
-        width: 35%; } }
+        width: 60%; } }
     @media (max-width: 320px) {
       .logo img {
-        width: 75%; } }
+        width: 100%; } }
   @media (max-width: 767px) {
     .logo {
       position: absolute;
