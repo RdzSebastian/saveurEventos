@@ -2047,7 +2047,7 @@ h1, h2, h3, h4, h5, h6 {
 ============================================================================================ */
 
 .section-title {
-    padding-top: 120px;
+    padding-top: 60px;
 }
 
 @media (max-width: 991px) {
@@ -2140,7 +2140,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Start Gallery Area css
 ============================================================================================ */
 .gallery-area {
-  padding: 240px 0 90px; }
+  padding: 240px 0 90px;
+  margin:70px; }
   @media (max-width: 991px) {
     .gallery-area {
       padding: 80px 0 50px; } }
