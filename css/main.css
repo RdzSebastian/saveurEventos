@@ -1933,7 +1933,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Start Home Banner Area 
 ============================================================================================ */
 .home-banner-area {
-  background: url(../img/header-bg-min.jpg) no-repeat center; }
+  background: black }
   .home-banner-area .height {
     height: 750px; }
   @media (max-width: 991px) {
@@ -2338,6 +2338,16 @@ h1, h2, h3, h4, h5, h6 {
     @media (max-width: 1096px) {
       .callto-action-area .owl-nav {
         display: none; } }
+
+  .overlay-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(105, 105, 105, 0.4); 
+    pointer-events: none;
+}
 
 /* End Callto Action Area css
 ============================================================================================ */
